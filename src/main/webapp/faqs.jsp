@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduAnalytics - FAQs</title>
+    <title>StudyPartner - FAQs</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         body {
@@ -108,27 +108,27 @@
         <!-- Hero Section -->
         <div class="hero">
     <header>
-        <h1>EduAnalytics - Frequently Asked Questions</h1>
+        <h1>StudyPartner - Frequently Asked Questions</h1>
     </header>
     <div class="container">
         <div class="faq-section">
             <h2>General Questions</h2>
-            <div class="faq-question">Q1: What is EduAnalytics?</div>
-            <div class="faq-answer">EduAnalytics is a platform for tracking and analyzing student performance to enhance learning outcomes.</div>
-            <div class="faq-question">Q2: Who can use EduAnalytics?</div>
+            <div class="faq-question">Q1: What is StudyPartner?</div>
+            <div class="faq-answer">StudyPartner is a platform for tracking and analyzing student performance to enhance learning outcomes.</div>
+            <div class="faq-question">Q2: Who can use StudyPartner?</div>
             <div class="faq-answer">Both teachers (admins) and students can use the platform. Teachers input and analyze data, while students view performance reports.</div>
         </div>
         <div class="faq-section">
             <h2>Technical Questions</h2>
-            <div class="faq-question">Q1: What technologies does EduAnalytics use?</div>
-            <div class="faq-answer">EduAnalytics uses Spring Boot microservices for the backend and React with JSP for the frontend.</div>
+            <div class="faq-question">Q1: What technologies does StudyPartner use?</div>
+            <div class="faq-answer">StudyPartner uses Spring Boot microservices for the backend and React with JSP for the frontend.</div>
             <div class="faq-question">Q2: How secure is my data?</div>
             <div class="faq-answer">We prioritize data security with robust authentication and encryption mechanisms.</div>
         </div>
         <div class="faq-section">
             <h2>Support</h2>
             <div class="faq-question">Q1: How can I contact support?</div>
-            <div class="faq-answer">You can contact our support team at support@eduanalytics.com or via the "Contact Us" section on our website.</div>
+            <div class="faq-answer">You can contact our support team at support@StudyPartner.com or via the "Contact Us" section on our website.</div>
             <div class="faq-question">Q2: Where can I find the user manual?</div>
             <div class="faq-answer">The user manual is available under the "Help" section of the application.</div>
         </div>
@@ -137,7 +137,7 @@
         
     </div>
     <footer>
-        &copy; 2024 EduAnalytics. All rights reserved.
+        &copy; 2024 StudyPartner. All rights reserved.
     </footer>
 </body>
 </html>

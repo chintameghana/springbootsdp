@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>EduAnalytics</title>
+    <title>StudyPartner</title>
     <style>
         /* General Body Styling */
         body {
@@ -21,7 +21,7 @@
             font-size: 24px;
             font-weight: bold;
             text-align: center;
-            color: #4CAF50;
+            color: #89cdd5;
             margin-top: 20px;
             text-transform: uppercase;
             text-decoration: underline;
@@ -65,7 +65,7 @@
         /* Button Styling */
         .btn {
             display: inline-block;
-            background-color: #4CAF50;
+            background-color: #89cdd5;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -78,12 +78,12 @@
         }
 
         .btn:hover {
-            background-color: #45a049;
+            background-color: #89cdd5;
             transform: scale(1.05);
         }
 
         .btn:active {
-            background-color: #388e3c;
+            background-color: #89cdd5;
             transform: scale(0.98);
         }
 

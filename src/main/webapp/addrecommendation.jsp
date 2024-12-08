@@ -41,7 +41,7 @@
             font-size: 16px;
         }
         button {
-            background-color: #4CAF50;
+            background-color: #89cdd5;
             color: white;
             padding: 10px;
             border: none;
@@ -49,7 +49,7 @@
             cursor: pointer;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #89cdd5;
         }
         .message {
             text-align: center;

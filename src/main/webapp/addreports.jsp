@@ -42,7 +42,7 @@
             font-size: 16px;
         }
         button {
-            background-color: #4CAF50;
+            background-color: #89cdd5;
             color: white;
             cursor: pointer;
             padding: 10px;
@@ -51,7 +51,7 @@
             border-radius: 4px;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #89cdd5;
         }
         .result-message {
             text-align: center;

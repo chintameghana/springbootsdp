@@ -58,7 +58,7 @@
             display: block;
             width: 100%;
             padding: 10px;
-            background-color: #4CAF50;
+            background-color: #89cdd5;
             color: white;
             border: none;
             border-radius: 4px;
@@ -85,7 +85,7 @@
         }
 
         .register-link a {
-            color: #4CAF50;
+            color: #89cdd5;
             text-decoration: none;
         }
 

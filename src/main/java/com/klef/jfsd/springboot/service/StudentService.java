@@ -20,5 +20,6 @@ public Student getStudentWithReports(int sid);
 public List<Student> getAllStudents();
 public Student getStudentById(Long studentId);
 Student getStudentById(int id);
+public Student findStudentById(int id);
   
 }

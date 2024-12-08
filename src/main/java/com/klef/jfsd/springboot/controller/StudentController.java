@@ -14,6 +14,7 @@ import com.klef.jfsd.springboot.model.Student;
 import com.klef.jfsd.springboot.service.StudentService;
 
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class StudentController {
@@ -106,13 +107,37 @@ public class StudentController {
     return mv;
   }
   
-  @GetMapping("studentprofile")
-	public ModelAndView studentprofile()
-	{
-		ModelAndView mv=new ModelAndView();
-		mv.setViewName("studentprofile");
-		return mv;
-	}
+  @GetMapping("/studentProfile")
+  public ModelAndView showStudentProfile(HttpSession session) {
+      ModelAndView modelAndView = new ModelAndView();
+
+      // Retrieve student ID from session
+      Integer studentId = (Integer) session.getAttribute("studentId");
+
+      // Check if ID exists in session
+      if (studentId == null) {
+          modelAndView.addObject("errorMessage", "Student not logged in or session expired.");
+          modelAndView.setViewName("errorPage"); // JSP file for error
+          return modelAndView;
+      }
+
+      // Fetch student details from the database
+      Student student = studentService.findStudentById(studentId);
+
+      // Check if student exists
+      if (student != null) {
+          modelAndView.addObject("student", student);
+          modelAndView.setViewName("studentProfile"); // JSP file for student profile
+      } else {
+          modelAndView.addObject("errorMessage", "Student profile not found.");
+          modelAndView.setViewName("errorPage"); // JSP file for error
+      }
+
+      return modelAndView;
+  }
+
+
+
   @GetMapping("updateprofile")
 	public ModelAndView updateprofile()
 	{

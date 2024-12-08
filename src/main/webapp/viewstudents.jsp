@@ -45,7 +45,7 @@
         }
 
         .table th {
-            background-color: #4CAF50;
+            background-color: #89cdd5;
             color: white;
             text-transform: uppercase;
         }

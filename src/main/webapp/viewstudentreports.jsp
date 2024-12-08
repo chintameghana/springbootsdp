@@ -35,7 +35,7 @@
             text-align: left;
         }
         table th {
-            background-color: #4CAF50;
+            background-color: #89cdd5;
             color: white;
         }
         table tr:nth-child(even) {
@@ -52,7 +52,7 @@
             margin-right: 5px;
         }
         .btn:hover {
-            background-color: #45a049;
+            background-color: #89cdd5;
         }
     </style>
 </head>

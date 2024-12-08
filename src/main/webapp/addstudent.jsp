@@ -10,7 +10,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZHPcYQrzE26g_WF7OsxwTUMZs_t25XWIWQg&s) no-repeat center center fixed;
+            background: url(https://img.freepik.com/premium-vector/hand-drawn-flat-university-background-with-students_98292-25651.jpg?semt=ais_hybrid) no-repeat center center fixed;
             background-size: cover;
             margin: 0;
             padding: 0;
@@ -42,12 +42,12 @@
             font-size: 16px;
         }
         button {
-            background-color: #4CAF50;
+            background-color: #89cdd5;
             color: white;
             cursor: pointer;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #89cdd5;
         }
         .result-message {
             text-align: center;

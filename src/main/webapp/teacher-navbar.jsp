@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>EduAnalytics</title>
+    <title>StudyPartner</title>
     <style>
         /* General Styles */
         body {
@@ -69,7 +69,7 @@
     </style>
 </head>
 <body>
-    <h2>EduAnalytics</h2><br/>
+    <h2>StudyPartner</h2><br/>
     <div>
         <a href="teacher-dashboard.jsp">Home</a>&nbsp;&nbsp;
         <a href="viewstudent">View All Students</a>&nbsp;&nbsp;

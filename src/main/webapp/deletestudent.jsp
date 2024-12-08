@@ -27,8 +27,8 @@
 
         /* Navbar Style */
         .navbar {
-            background-color: #007bff;
-            color: #fff;
+            background-color: #343a40;
+            color: #343a40;
             padding: 10px 15px;
             display: flex;
             justify-content: space-between;
@@ -62,7 +62,7 @@
         }
 
         th {
-            background-color: #007bff;
+            background-color: #89cdd5;
             color: white;
             font-weight: bold;
         }
@@ -76,14 +76,14 @@
         }
 
         a {
-            color: #007bff;
+            color: #343a40;
             text-decoration: none;
             font-weight: bold;
         }
 
         a:hover {
             text-decoration: underline;
-            color: #0056b3;
+            color: #343a40;
         }
 
         /* Button Styles */

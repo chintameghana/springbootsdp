@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduAnalytics - Home</title>
+    <title>StudyPartner - Home</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
     body {
@@ -24,7 +24,8 @@
         left: 0;
         height: 100%;
         width: 250px;
-        background-color: rgba(0, 123, 255, 0.9); /* Semi-transparent blue */
+        background-color: #343a40
+; /* Semi-transparent blue */
         padding-top: 20px;
         color: white;
     }
@@ -35,7 +36,7 @@
         display: block;
     }
     .sidebar a:hover {
-        background-color: #0056b3; /* Darker blue on hover */
+        background-color: #FFFFFF; /* Darker blue on hover */
     }
     /* Main content styling */
     .main-content {
@@ -43,7 +44,7 @@
         padding: 20px;
     }
     .hero {
-        background: rgba(76, 175, 80, 0.8); /* Semi-transparent green overlay */
+background: #89cdd5; /* Solid blue color */
         color: white;
         text-align: center;
         padding: 100px 20px;
@@ -77,22 +78,22 @@
     <div class="main-content">
         <!-- Hero Section -->
         <div class="hero">
-            <h1>Welcome to EduAnalytics</h1>
-            <p>Transforming student performance data into actionable insights.</p>
+            <h1>Welcome to StudyPartner</h1>
+            <p>Join us to explore a wide range of courses and enhance your skills!</p>
             <a href="teacherlogin.jsp" class="btn btn-light btn-lg text-primary">Teacher Login</a>
             <a href="studentlogin.jsp" class="btn btn-outline-light btn-lg">Student Login</a>
         </div>
 
         <!-- Features Section -->
         <div class="container features text-center mt-5">
-            <h2 class="mb-4">Why Choose EduAnalytics?</h2>
+            <h2 class="mb-4">Why Choose StudyPartner?</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card p-4">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXKg2qJGL2EeWx6nWnn32m4Ix6OHewpHG8Rg&s" class="card-img-top mx-auto" alt="Easy Analysis" style="width: 100px;">
                         <div class="card-body">
                             <h5 class="card-title">Easy Performance Analysis</h5>
-                            <p class="card-text">Get detailed insights into student performance with just a few clicks.</p>
+                            <p class="card-text">Get detailed insights.</p>
                         </div>
                     </div>
                 </div>
@@ -101,7 +102,7 @@
                         <img src="data:image/png;base64,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" class="card-img-top mx-auto" alt="Custom Reports" style="width: 100px;">
                         <div class="card-body">
                             <h5 class="card-title">Custom Reports</h5>
-                            <p class="card-text">Generate custom reports tailored to student and teacher needs.</p>
+                            <p class="card-text">Generate custom reports.</p>
                         </div>
                     </div>
                 </div>
@@ -110,7 +111,7 @@
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcv7PXxe34Ir2_T2U2uuBQQv_8UBw4hy2S-Q&s" class="card-img-top mx-auto" alt="Improvement Tracking" style="width: 100px;">
                         <div class="card-body">
                             <h5 class="card-title">Track Progress</h5>
-                            <p class="card-text">Monitor student progress and identify areas of improvement efficiently.</p>
+                            <p class="card-text">Monitor student progress.</p>
                         </div>
                     </div>
                 </div>
@@ -119,7 +120,7 @@
 
         <!-- Footer -->
         <footer>
-            <p>&copy; 2024 EduAnalytics. All Rights Reserved.</p>
+            <p>&copy; 2024 StudyPartner. All Rights Reserved.</p>
         </footer>
     </div>
 

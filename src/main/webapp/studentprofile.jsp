@@ -1,26 +1,52 @@
 <%@ page import="com.klef.jfsd.springboot.model.Student" %>
-<%
-Student s=(Student)session.getAttribute("student");
-%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Activities</title>
+    <title>Student Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            text-align: center;
+            color: #343a40;
+        }
+        .profile-container {
+            width: 50%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        p {
+            font-size: 18px;
+            color: #495057;
+        }
+    </style>
 </head>
 <body>
+    <div class="profile-container">
+        <h1>My Profile</h1>
+        <c:if test="${not empty student}">
+            <p><strong>ID:</strong> ${student.id}</p>
+            <p><strong>Name:</strong> ${student.name}</p>
+            <p><strong>Gender:</strong> ${student.gender}</p>
+            <p><strong>Date of Birth:</strong> ${student.dateOfBirth}</p>
+            <p><strong>Email:</strong> ${student.email}</p>
+            <p><strong>Contact:</strong> ${student.contact}</p>
+            <p><strong>Status:</strong> ${student.status}</p>
+            <p><strong>Grade Level:</strong> ${student.gradeLevel}</p>
+        </c:if>
 
-<h3 align="center">My Profile</h3>
-ID:<%=s.getId()%><br/>
-NAME:<%=s.getName()%><br/>
-GENDER:<%=s.getGender()%><br/>
-DOB:<%=s.getDateOfBirth()%><br/>
-EMAIL:<%=s.getEmail()%><br/>
-CONTACT:<%=s.getContact()%><br/>
-STATUS:<%=s.getStatus()%><br/>
-GRADE:<%=s.getGradeLevel()%><br/>
-
+        <c:if test="${empty student}">
+            <p>Student profile not found.</p>
+        </c:if>
+    </div>
 </body>
 </html>

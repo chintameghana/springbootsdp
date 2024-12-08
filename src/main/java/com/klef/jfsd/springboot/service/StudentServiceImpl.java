@@ -53,19 +53,19 @@ public class StudentServiceImpl implements StudentService {
 		return studentRepository.checkstudentlogin(email, pwd);
 	}
 
-	@Override
-	public Student viewstudentbyid(int sid) {
-		Optional<Student> obj = studentRepository.findById(sid);
-
-		if (obj.isPresent()) {
-			Student s = obj.get();
-
-			return s;
-		} else {
-			return null;
-		}
-	}
-	
+//	@Override
+//	public Student viewstudentbyid(int sid) {
+//		Optional<Student> obj = studentRepository.findById(sid);
+//
+//		if (obj.isPresent()) {
+//			Student s = obj.get();
+//
+//			return s;
+//		} else {
+//			return null;
+//		}
+//	}
+//	
 	@Override
 	  public Student findByEmail(String email) {
 	    return studentRepository.findByEmail(email);
@@ -125,6 +125,18 @@ public class StudentServiceImpl implements StudentService {
 		    public Student getStudentById(Long studentId) {
 		        return studentRepository.findById(studentId).orElse(null);
 		    }
+
+		    @Override
+		    public Student findStudentById(int id) {
+		        return studentRepository.findById(id).orElse(null);
+		    
+			}
+
+			@Override
+			public Student viewstudentbyid(int sid) {
+				// TODO Auto-generated method stub
+				return null;
+			}
 
 
 }

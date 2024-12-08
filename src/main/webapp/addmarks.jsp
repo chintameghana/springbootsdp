@@ -42,7 +42,7 @@
             font-size: 16px;
         }
         button {
-            background-color: #4CAF50;
+            background-color: #89cdd5;
             color: white;
             cursor: pointer;
             padding: 10px;

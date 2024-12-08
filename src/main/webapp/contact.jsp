@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact Us - EduAnalytics</title>
+    <title>Contact Us - StudyPartner</title>
     <style>
         body {
             font-family: Arial, sans-serif;

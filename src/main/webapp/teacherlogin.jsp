@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teacher Login</title>
+    <title>Faculty Login</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -46,7 +46,7 @@
         .login-btn {
             width: 100%;
             padding: 14px;
-            background-color: #007bff;
+            background-color: #89cdd5;
             color: white;
             border: none;
             border-radius: 5px;
@@ -55,7 +55,7 @@
         }
 
         .login-btn:hover {
-            background-color: #0056b3;
+            background-color: #89cdd5;
         }
 
         .message {
@@ -65,7 +65,7 @@
         }
 
         .link {
-            color: #007bff;
+            color: #89cdd5;
             text-decoration: none;
         }
 
@@ -77,7 +77,7 @@
 <body>
 
     <div class="login-container">
-        <h2>Teacher Login</h2>
+        <h2>Faculty Login</h2>
 
         <!-- Form for teacher login -->
         <form action="<c:url value='/checkteacherlogin' />" method="POST">
